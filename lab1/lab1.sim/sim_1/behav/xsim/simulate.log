@@ -1,0 +1,38 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+         5 ... led output changed to 00000000
+         5 ... led output changed to 00000000
+# of lines:  20
+          0
+   1501000 ... Running instruction 00000000
+   5243925 ... instruction 00000000 executed
+   5243925 ... led output changed to 00000001
+        192
+   6002000 ... Running instruction 11000000
+   9176085 ... instruction 11000000 executed
+   9176085 ... led output changed to 00000010
+   9228695 UART0 Received line:  0000
+         17
+  10503000 ... Running instruction 00010001
+  14418965 ... instruction 00010001 executed
+  14418965 ... led output changed to 00000011
+        208
+  15004000 ... Running instruction 11010000
+  18351125 ... instruction 11010000 executed
+  18351125 ... led output changed to 00000100
+  18403735 UART0 Received line:  0001
+         68
+  19505000 ... Running instruction 01000100
+  23594005 ... instruction 01000100 executed
+  23594005 ... led output changed to 00000101
+        192
+  24006000 ... Running instruction 11000000
+  27526165 ... instruction 11000000 executed
+  27526165 ... led output changed to 00000110
+  27578775 UART0 Received line:  0001
+         69
+  28507000 ... Running instruction 01000101
+  31458325 ... instruction 01000101 executed
+  31458325 ... led output changed to 00000111
+        208
+  33008000 ... Running instruction 11010000

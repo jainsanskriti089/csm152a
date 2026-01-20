@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Desktop/SanskritiAnusha/lab0/lab0.srcs/sources_1/imports/Downloads/combinational_gates_muxed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combinational_gates_muxed
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Desktop/SanskritiAnusha/lab0/lab0.srcs/sim_1/imports/Downloads/combinational_gates_muxed_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combinational_gates_muxed_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Desktop/SanskritiAnusha/lab0/lab0.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

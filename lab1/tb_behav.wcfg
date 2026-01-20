@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="33752645000000fs"></ZoomEndTime>
+      <Cursor1Time time="10486775000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="104"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/tb/sw" type="array">
+      <obj_property name="ElementShortName">sw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/btnS" type="logic">
+      <obj_property name="ElementShortName">btnS</obj_property>
+      <obj_property name="ObjectShortName">btnS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/m" type="array">
+      <obj_property name="ElementShortName">m[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:1023][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:1023][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/instr_count" type="array">
+      <obj_property name="ElementShortName">instr_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RsRx" type="logic">
+      <obj_property name="ElementShortName">RsRx</obj_property>
+      <obj_property name="ObjectShortName">RsRx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RsTx" type="logic">
+      <obj_property name="ElementShortName">RsTx</obj_property>
+      <obj_property name="ObjectShortName">RsTx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/RsRx" type="logic">
+      <obj_property name="ElementShortName">RsRx</obj_property>
+      <obj_property name="ObjectShortName">RsRx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/RsTx" type="logic">
+      <obj_property name="ElementShortName">RsTx</obj_property>
+      <obj_property name="ObjectShortName">RsTx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/sw" type="array">
+      <obj_property name="ElementShortName">sw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/btnS" type="logic">
+      <obj_property name="ElementShortName">btnS</obj_property>
+      <obj_property name="ObjectShortName">btnS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_tx_data" type="array">
+      <obj_property name="ElementShortName">seq_tx_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_tx_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_tx_valid" type="logic">
+      <obj_property name="ElementShortName">seq_tx_valid</obj_property>
+      <obj_property name="ObjectShortName">seq_tx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/uart_rx_data" type="array">
+      <obj_property name="ElementShortName">uart_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/uart_rx_valid" type="logic">
+      <obj_property name="ElementShortName">uart_rx_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/uart_tx_busy" type="logic">
+      <obj_property name="ElementShortName">uart_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/arst_i" type="logic">
+      <obj_property name="ElementShortName">arst_i</obj_property>
+      <obj_property name="ObjectShortName">arst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/clk_dv_inc" type="array">
+      <obj_property name="ElementShortName">clk_dv_inc[17:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_dv_inc[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/arst_ff" type="array">
+      <obj_property name="ElementShortName">arst_ff[1:0]</obj_property>
+      <obj_property name="ObjectShortName">arst_ff[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/clk_dv" type="array">
+      <obj_property name="ElementShortName">clk_dv[16:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_dv[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/clk_en" type="logic">
+      <obj_property name="ElementShortName">clk_en</obj_property>
+      <obj_property name="ObjectShortName">clk_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/clk_en_d" type="logic">
+      <obj_property name="ElementShortName">clk_en_d</obj_property>
+      <obj_property name="ObjectShortName">clk_en_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/inst_wd" type="array">
+      <obj_property name="ElementShortName">inst_wd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_wd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/inst_vld" type="logic">
+      <obj_property name="ElementShortName">inst_vld</obj_property>
+      <obj_property name="ObjectShortName">inst_vld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/step_d" type="array">
+      <obj_property name="ElementShortName">step_d[2:0]</obj_property>
+      <obj_property name="ObjectShortName">step_d[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/inst_cnt" type="array">
+      <obj_property name="ElementShortName">inst_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_in_width" type="array">
+      <obj_property name="ElementShortName">seq_in_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_in_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_op_width" type="array">
+      <obj_property name="ElementShortName">seq_op_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_op_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_rn_width" type="array">
+      <obj_property name="ElementShortName">seq_rn_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_rn_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_num_regs" type="array">
+      <obj_property name="ElementShortName">seq_num_regs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_num_regs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_im_width" type="array">
+      <obj_property name="ElementShortName">seq_im_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_im_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_op_push" type="array">
+      <obj_property name="ElementShortName">seq_op_push[1:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_op_push[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_op_add" type="array">
+      <obj_property name="ElementShortName">seq_op_add[1:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_op_add[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_op_mult" type="array">
+      <obj_property name="ElementShortName">seq_op_mult[1:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_op_mult[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_op_send" type="array">
+      <obj_property name="ElementShortName">seq_op_send[1:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_op_send[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_dp_width" type="array">
+      <obj_property name="ElementShortName">seq_dp_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_dp_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/seq_rf_width" type="array">
+      <obj_property name="ElementShortName">seq_rf_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seq_rf_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/alu_width" type="array">
+      <obj_property name="ElementShortName">alu_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_/uart_num_nib" type="array">
+      <obj_property name="ElementShortName">uart_num_nib[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_num_nib[31:0]</obj_property>
+   </wvobject>
+</wave_config>
