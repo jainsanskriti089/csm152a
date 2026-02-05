@@ -19,40 +19,39 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module FPCVT(input[11:0] ogtc, output[7:0] result);
+module FPCVT(input[11:0] d, output[1:0] s, output[2:0] e, output [3:0] f);
 wire [11:0] abstc;
-wire sign_bit;
 
-wire [2:0] exp;
-wire [3:0] figs;
+wire [2:0] old_exp;
+wire [3:0] old_figs;
 wire [3:0] i;
 
-wire [2:0] nexp;
-wire [3:0] nfigs;
+//wire sign_bit;
+//wire [2:0] nexp;
+//wire [3:0] nfigs;
 
 absolute_value abs_convert(
-    .ogtc(ogtc),
+    .ogtc(d),
     .abstc(abstc),
     .sign_bit(sign_bit)
 );
 
 extract_bits extract(
     .abstc(abstc),
-    .exp(exp),
-    .figs(figs),
+    .exp(old_exp),
+    .figs(old_figs),
     .i(i)
 );
 
 rounding rounded(
     .abstc(abstc),
     .i(i),
-    .exp(exp),
-    .figs(figs),
-    .nexp(nexp),
-    .nfigs(nfigs)
+    .exp(old_exp),
+    .figs(old_figs),
+    .nexp(e),
+    .nfigs(f)
 );
 
-assign result = {sign_bit, nexp, nfigs};
 endmodule
 
 // ogtc = original two's complement
@@ -65,7 +64,7 @@ output sign_bit;
 reg [11:0] val;
 
 always @(*) begin
-    if (ogtc == 12'b111111111111) begin
+    if (ogtc == 12'b100000000000) begin
         val = 12'b011111111111;
     end
     else begin
